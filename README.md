@@ -17,3 +17,7 @@ Para usar este bot debes hacer lo siguiente:
 1. Editar el archivo plantilla en donde vas a poner el mensaje que se va a enviar, la variable $site es donde se remplazan los @ de Twitter
 1. En el archivo variables.txt van los usuarios de Twitter al que se la va a enviar el mensaje, va u @ por linea
 1. Ejecutar el script asi: bash remplazar2.sh (Automaticamente empezara a enviar los Tweets, tiene una espera de un minuto por tweet puede bajarse hasta 30 segundos, esto es importante para evitar ser baneado por Twitter)
+
+### remplazar3.sh
+
+Este script lee un archivo CSV con cuatro columnas que contiene un mensaje, el usuario de twitter y dos hashtag, viendo el archivo plantilla2 se puede entender como se crea el archivo csv.
